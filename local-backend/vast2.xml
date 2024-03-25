@@ -1,0 +1,73 @@
+<vmap:VMAPxmlns:vmap="https: //www.iab.net/videosuite/vmap"version="1.0">
+    <vmap:AdBreakbreakType="linear"breakId="preroll"timeOffset="start">
+    <vmap:AdSourceid="preroll">
+    <vmap:VASTAdData>
+        <VASTversion="4.2">
+        <Ad>
+            <InLine>
+                <AdSystem>GoogleIMASDK</AdSystem>
+                <AdTitle>IMATestAD</AdTitle>
+                <ViewableImpression />
+                <AdVerifications />
+                <Extensions />
+                <Creatives>
+                    <Creative>
+                        <Linear>
+                            <AdParameters>
+                                <![CDATA[{"url":"https://vast.com/vast-adTag-preroll"}]]>
+                            </AdParameters>
+                            <MediaFiles>
+                                <MediaFiledelivery="progressive"type="application /javascript"bitrate="0" minBitrate="0"
+                                maxBitrate="0" width="640" height="360" apiFramework="IMA" fileSize="0" mediaType="2D">
+                                <![CDATA[https://imasdk.googleapis.com/js/sdkloader/ima3.js]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <TrackingEvents />
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+        </vmap:VASTAdData>
+        </vmap:AdSource>
+        </vmap:AdBreak>
+<vmap:AdBreakbreakType="linear"breakId="midroll"timeOffset="00:00:15"repeatAfter="00:00:30">
+<vmap:AdSourceid="midroll">
+<vmap:VASTAdData>
+<VASTversion="4.2">
+<Ad>
+    <InLine>
+        <AdSystem>GoogleIMASDK</AdSystem>
+        <AdTitle>IMATestAD</AdTitle>
+        <ViewableImpression />
+        <AdVerifications />
+        <Extensions />
+        <Creatives>
+            <Creative>
+                <Linear>
+                    <AdParameters>
+                        <![CDATA[{"url":"https://vast.com/vast-adTag-midroll"}]]>
+                    </AdParameters>
+                    <MediaFiles>
+                        <MediaFiledelivery="progressive"type="application /javascript"bitrate="0" minBitrate="0"
+                        maxBitrate="0" width="640" height="360" apiFramework="IMA" fileSize="0" mediaType="2D">
+                        <![CDATA[https://imasdk.googleapis.com/js/sdkloader/ima3.js]]>
+                    </MediaFile>
+                </MediaFiles>
+                <TrackingEvents />
+            </Linear>
+        </Creative>
+    </Creatives>
+</InLine>
+</Ad>
+        </VAST>
+        </vmap:VASTAdData>
+        </vmap:AdSource>
+        </vmap:AdBreak>
+<vmap:Extensions>
+<vmap:Extensiontype="dailymotion"source="dailymotion">
+<![CDATA[{"timeout":8000,"adCallDataUrl":"https://ad-tester:9043/ad-fake-event/ad-calls"}]]>
+</vmap:Extension>
+        </vmap:Extensions>
+        </vmap:VMAP>
